@@ -1,0 +1,93 @@
+body {
+	background: grey; 
+	font-family: "Tahoma", Sans-serif;
+}
+page {
+	background: white;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+	width: 790px;
+	height: 1117px; 
+}
+.ink {
+	border-top: 50px solid white;
+	border-bottom: 50px solid white;
+	border-left: 80px solid white;
+	border-right: 80px solid white;
+}
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.column {
+	float: left;
+	width: 45%;
+}
+font {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;		
+}
+.box {
+	height: 20px;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	border: 1px solid black;
+	padding: 3px;
+}
+.box2 {
+	height: 44px;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	border: 1px solid black;
+	padding: 3px;
+}
+.boxL {
+	float: left;
+	width: 72%;
+	height: 44px;
+}
+.boxR {
+	float: right;
+	width: 28%;
+	height: 20px;
+	margin-top: 24px;
+}
+.boxL2 {
+	float: left;
+	width: 25%;
+	height: 20px;
+}
+.boxR2 {
+	float: right;
+	width: 75%;
+	height: 20px;
+}
+.boxL3 {
+	float: left;
+	width: 31%;
+	height: 20px;
+}
+.boxM3 {
+	float: left;
+	width: 36%;
+	height: 20px;
+}
+.boxR3 {
+	float: right;
+	width: 33%;
+	height: 20px;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+}
+.item {
+	order: 0;
+}
